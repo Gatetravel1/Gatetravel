@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gate Travel</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+    header { background: url('https://source.unsplash.com/1600x600/?travel') center/cover; height: 60vh; color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+    header h1 { font-size: 3em; text-shadow: 2px 2px 5px #000; }
+    nav { background: #0077b6; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    .container { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    .section-title { font-size: 2em; margin-bottom: 20px; color: #0077b6; }
+    .offers, .destinations { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .card { border: 1px solid #ccc; border-radius: 10px; overflow: hidden; }
+    .card img { width: 100%; height: 150px; object-fit: cover; }
+    .card-content { padding: 15px; }
+    footer { background: #0077b6; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Gate Travel</h1>
+    <p>Explorez le monde à votre façon</p>
+  </header>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#offres">Offres</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="accueil" class="container">
+    <h2 class="section-title">Bienvenue chez Gate Travel</h2>
+    <p>Nous vous proposons des voyages sur mesure, des aventures uniques et des souvenirs inoubliables.</p>
+  </section>
+
+  <section id="destinations" class="container">
+    <h2 class="section-title">Destinations populaires</h2>
+    <div class="destinations">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?paris" alt="Paris">
+        <div class="card-content">
+          <h3>Paris</h3>
+          <p>La ville lumière vous attend avec ses monuments et son romantisme éternel.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?bali" alt="Bali">
+        <div class="card-content">
+          <h3>Bali</h3>
+          <p>Un coin de paradis avec des plages magnifiques et une culture vibrante.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="offres" class="container">
+    <h2 class="section-title">Nos offres du moment</h2>
+    <div class="offers">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?desert" alt="Circuit Maroc">
+        <div class="card-content">
+          <h3>Circuits au Maroc</h3>
+          <p>Découvrez les dunes du Sahara, les souks colorés et l’hospitalité marocaine.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?mountains" alt="Séjour Alpes">
+        <div class="card-content">
+          <h3>Séjour dans les Alpes</h3>
+          <p>Nature, randonnée et air pur vous attendent dans un décor grandiose.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2 class="section-title">Contactez-nous</h2>
+    <p>Email : contact@gatetravel.com</p>
+    <p>Téléphone : +33 1 23 45 67 89</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gate Travel - Tous droits réservés</p>
+  </footer>
+
+</body>
+</html>
+
