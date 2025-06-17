@@ -5,19 +5,93 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gate Travel</title>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
-    header {background: url('imagesk/voyage.jpg') center/cover no-repeat;}
-    header h1 { font-size: 3em; text-shadow: 2px 2px 5px #000; }
-    nav { background: #0077b6; padding: 10px; text-align: center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-    .container { padding: 40px 20px; max-width: 1000px; margin: auto; }
-    .section-title { font-size: 2em; margin-bottom: 20px; color: #0077b6; }
-    .offers, .destinations { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-    .card { border: 1px solid #ccc; border-radius: 10px; overflow: hidden; }
-    .card img { width: 100%; height: 150px; object-fit: cover; }
-    .card-content { padding: 15px; }
-    footer { background: #0077b6; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background: url('imagesk/voyage.jpg') center/cover no-repeat;
+      height: 60vh;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    header p {
+      font-size: 1.2em;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    nav {
+      background: #0077b6;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #0077b6;
+    }
+
+    .offers, .destinations {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    footer {
+      background: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
   </style>
 </head>
 <body>
@@ -91,4 +165,3 @@
 
 </body>
 </html>
-
